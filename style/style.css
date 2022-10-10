@@ -1,0 +1,246 @@
+.img-logo {
+    width: 30%;
+}
+
+.icon-svg{
+    width: 65%;
+}
+
+.footer-list{
+    display: flex;
+}
+
+.footer-list li{
+    width: 15%;
+}
+
+.text-logo{
+    margin-left: 2%;
+    margin-right: 0%;
+    font-size: 2.1rem;
+}
+
+.titulo-secao {
+    margin-top: 40px;
+    display: block;
+    padding: 10px 0px 0px 15px;
+    position: relative;
+    font-weight: 700;
+    margin: 15px 5px 30px 20px;
+    text-align: inherit;
+}
+
+.titulo-secao span {
+    font-weight: bold;
+    font-size: 2em;
+    display: block;
+    z-index: 10;
+}
+
+.titulo-secao span::after {
+    width: 4px;
+    bottom: 4px;
+    height: 30px;
+    content: "";
+    display: block;
+    position: absolute;
+    margin-left: -14px;
+    background-color: #ee6e73;
+    color: #ee6e73;
+}
+
+.text{
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 2.6;
+    text-align: justify;
+    letter-spacing: 2.5px;
+    margin: 5% 15%;
+}
+
+.text p{
+    margin-top: 4%;
+}
+
+.subtitulo{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+body {
+    background-color: white;
+    color: rgb(43, 36, 36);
+}
+
+.formulario{
+    border: 3px solid #ee6e73;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+label{
+    color: rgb(0,0,0)!important;
+}
+  
+.dark-mode {
+    background-color: rgb(32, 27, 27);
+    color: white;
+}
+
+.dark-mode label{
+        color: white !important;
+}
+.dark-mode input{
+    color: white !important;
+}
+
+  * {box-sizing:border-box}
+
+.container-slider{
+    margin:5% 0;
+}
+
+.container-form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*FORMULARIO*/
+.formulario{
+    margin-bottom: 10%;
+}
+
+.formulario .label span { 
+    width: 100%; 
+    float: left;
+    margin-bottom: 3px;
+    margin-top: 2%; 
+  }
+  .formulario .campo {
+    font-family: 'open_sansregular';
+    font-size: 26px!important;
+    border-radius: 3px;
+    line-height: 20px;
+    background-color: transparent;
+    transition: all 0.3s;
+    padding: 11px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+  }
+
+  .formulario textarea {
+    
+    height: 130px;
+    line-height: 130%;
+    resize:vertical;
+  }
+  .formulario .botao {
+    font-family: 'open_sansregular';
+    width: 100%;
+    background:#8DB57F;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    font-size:22px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  .formulario .botao:hover { background:#669954; }
+  /*ANTI-SPAN*/
+  .naoexibir { display:none; }
+
+  .container-options{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+  }
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+.btn, .btn-large, .btn-small {
+  background-color: #ee6e73!important;
+  margin-top: 4%;
+}
+
+
+@media only screen and (max-width: 630px){
+    .container-options{
+        display: block;
+    }
+
+    .img-logo{
+        display: none;
+    }
+}
